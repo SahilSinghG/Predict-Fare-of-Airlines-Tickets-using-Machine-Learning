@@ -197,7 +197,7 @@ The model then predicts the estimated ticket price.
 🚀 How to Run the Project
 
 Clone the repository
-git clone https://github.com/yourusername/airline-fare-prediction.git
+git clone https://github.com/SahilSinghG/Predict-Fare-of-Airlines-Tickets-using-Machine-Learning.git
 
 Install dependencies
 pip install -r requirements.txt
