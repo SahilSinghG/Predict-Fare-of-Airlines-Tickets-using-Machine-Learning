@@ -17,6 +17,10 @@ Deployment using Streamlit
 
 The final result is an interactive web application where users can input flight details and receive an estimated ticket price.
 
+## 📂 Project Structure
+
+<img width="768" height="536" alt="image" src="https://github.com/user-attachments/assets/c06d7f30-ffe0-4349-a016-bf5aeb77775e" />
+
 ## 📊 Dataset Description
 
 The dataset used in this project contains historical flight booking data. Each row represents a flight with multiple attributes affecting ticket prices.
