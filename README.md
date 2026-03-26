@@ -1,6 +1,6 @@
-✈️ Airline Fare Prediction Using Machine Learning
+#✈️ Airline Fare Prediction Using Machine Learning
 
-📌 Project Overview
+##📌 Project Overview
 
 Airline ticket prices fluctuate significantly due to various factors such as airline company, travel route, number of stops, departure time, and the number of days left before departure. Predicting these prices can help travelers make informed decisions and assist airline companies in dynamic pricing strategies.
 
@@ -17,7 +17,7 @@ Deployment using Streamlit
 
 The final result is an interactive web application where users can input flight details and receive an estimated ticket price.
 
-📊 Dataset Description
+##📊 Dataset Description
 
 The dataset used in this project contains historical flight booking data. Each row represents a flight with multiple attributes affecting ticket prices.
 
@@ -34,7 +34,7 @@ duration	Total flight duration
 days_left	Number of days left before departure
 price	Ticket price (target variable)
 
-🎯 Problem Statement
+##🎯 Problem Statement
 
 Airline companies use dynamic pricing models, meaning ticket prices change depending on several factors such as:
 
@@ -49,7 +49,7 @@ Class of travel
 
 The objective of this project is to build a regression model that predicts the flight ticket price based on available features.
 
-🧠 Machine Learning Approach
+##🧠 Machine Learning Approach
 
 This project follows a standard machine learning workflow.
 
@@ -148,7 +148,7 @@ Combining predictions from all trees
 
 This approach reduces overfitting and improves prediction accuracy.
 
-📈 Model Performance
+##📈 Model Performance
 
 Model evaluation metrics used:
 
@@ -175,7 +175,7 @@ The model might predict within approximately:
 
 This level of error is expected in airline pricing because real prices depend on dynamic factors such as demand and promotions.
 
-🌐 Deployment
+##🌐 Deployment
 
 To make the model accessible to users, it was deployed using Streamlit, a Python framework for building data applications.
 
@@ -194,7 +194,7 @@ The model then predicts the estimated ticket price.
 <img width="557" height="653" alt="image" src="https://github.com/user-attachments/assets/1d7735db-ee2c-407c-9d3c-29e1bf6af09e" />
 
 
-🚀 How to Run the Project
+##🚀 How to Run the Project
 
 Clone the repository
 git clone https://github.com/SahilSinghG/Predict-Fare-of-Airlines-Tickets-using-Machine-Learning.git
@@ -216,7 +216,7 @@ Matplotlib
 Seaborn
 Streamlit
 
-📌 Key Learnings
+##📌 Key Learnings
 
 Through this project I gained hands-on experience with:
 
@@ -228,7 +228,7 @@ Model evaluation
 Building interactive ML applications
 Deploying machine learning models
 
-📊 Future Improvements
+##📊 Future Improvements
 
 Possible enhancements include:
 
