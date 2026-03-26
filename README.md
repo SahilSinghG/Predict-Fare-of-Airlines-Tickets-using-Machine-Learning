@@ -43,6 +43,9 @@ Airline company
 Route popularity
 Class of travel
 
+<img width="806" height="747" alt="image" src="https://github.com/user-attachments/assets/e01551ff-9324-4848-8f0c-4ad1bdd0e9d2" />
+
+
 The objective of this project is to build a regression model that predicts the flight ticket price based on available features.
 
 🧠 Machine Learning Approach
@@ -67,6 +70,9 @@ Ensured data types were correct
 
 The flight column was removed because it only represents a flight identifier and does not contribute meaningful predictive information.
 
+<img width="580" height="363" alt="image" src="https://github.com/user-attachments/assets/ba2fc9ee-cf01-4adf-86b8-ee3d6f44fbc8" />
+
+
 3️⃣ Exploratory Data Analysis (EDA)
 
 Exploratory analysis was performed to understand relationships between features and ticket prices.
@@ -74,9 +80,20 @@ Exploratory analysis was performed to understand relationships between features 
 Key visualizations included:
 
 Airline vs Price distribution
+
+<img width="906" height="538" alt="image" src="https://github.com/user-attachments/assets/0cab89ac-c967-4e97-99a5-bec4de639632" />
+
 Stops vs Price
+
+<img width="823" height="427" alt="image" src="https://github.com/user-attachments/assets/f028f624-0fd2-4411-8b2d-1cdfd6081ed9" />
+
 Price distribution histogram
+
+<img width="893" height="512" alt="image" src="https://github.com/user-attachments/assets/0fbbd395-250a-4e0e-b2df-8de1d33fcaff" />
+
 Correlation heatmap
+
+<img width="865" height="581" alt="image" src="https://github.com/user-attachments/assets/be6461e3-38f5-48c7-a6da-4ab260f17a50" />
 
 These visualizations helped identify the most influential features affecting ticket prices.
 
@@ -114,9 +131,13 @@ Linear Regression
 Decision Tree
 Random Forest
 
+<img width="611" height="563" alt="image" src="https://github.com/user-attachments/assets/e0135eb7-0d32-46db-97d4-a4d95979a7a2" />
+
 After comparing performance, Random Forest Regressor was selected because it handles nonlinear relationships effectively and provides strong predictive accuracy.
 
 Why Random Forest?
+
+<img width="770" height="641" alt="image" src="https://github.com/user-attachments/assets/8ac0eea2-bb48-4af6-a597-fcdbaf960ab7" />
 
 Random Forest works by:
 
@@ -169,11 +190,17 @@ Days before departure
 
 The model then predicts the estimated ticket price.
 
+<img width="557" height="653" alt="image" src="https://github.com/user-attachments/assets/1d7735db-ee2c-407c-9d3c-29e1bf6af09e" />
+
+
 🚀 How to Run the Project
+
 Clone the repository
 git clone https://github.com/yourusername/airline-fare-prediction.git
+
 Install dependencies
 pip install -r requirements.txt
+
 Run the Streamlit application
 streamlit run app.py
 
@@ -187,6 +214,7 @@ Scikit-learn
 Matplotlib
 Seaborn
 Streamlit
+
 📌 Key Learnings
 
 Through this project I gained hands-on experience with:
@@ -198,6 +226,7 @@ Regression modeling
 Model evaluation
 Building interactive ML applications
 Deploying machine learning models
+
 📊 Future Improvements
 
 Possible enhancements include:
@@ -206,6 +235,7 @@ Using advanced algorithms such as XGBoost or Gradient Boosting
 Hyperparameter tuning for improved performance
 Adding additional features such as weekday/weekend indicators
 Deploying the model using FastAPI or Docker
+
 👨‍💻 Author
 
 Sahil Singh
