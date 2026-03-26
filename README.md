@@ -1,4 +1,5 @@
 ✈️ Airline Fare Prediction Using Machine Learning
+
 📌 Project Overview
 
 Airline ticket prices fluctuate significantly due to various factors such as airline company, travel route, number of stops, departure time, and the number of days left before departure. Predicting these prices can help travelers make informed decisions and assist airline companies in dynamic pricing strategies.
